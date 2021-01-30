@@ -9,8 +9,9 @@ function mayMin (texto) {
   } 
   
   else if (texto === texto.toLowerCase()) {
-      return "minúsculas"
+      return "minúsculas";
   }
+
   else {
     return "mayúsculas y minúsculas";
   }
